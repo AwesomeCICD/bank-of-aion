@@ -360,7 +360,6 @@ workflows:
         context:
         - compass-integration-bank-of-aion
         - cera-vault-oidc
-        - cera-vault-oidc-prod
         name: Deploy Dev [<<pipeline.parameters.region>>]
         post-steps:
         - compass/notify_deployment:
